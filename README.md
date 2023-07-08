@@ -1,0 +1,1 @@
+Messing around with very BASIC functions in JS. Getting used to syntax. 
