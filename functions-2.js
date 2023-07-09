@@ -32,3 +32,22 @@ const calculateSupply = (currentAge, amountPerDay) => {
 calculateSupply(32, 4);
 calculateSupply(28, 4);
 calculateSupply(20, 2);
+
+// ** Temperature Converter ** 
+    // It's hot out! NOT. Let's make a celsius/fahrenheit converter
+
+const tempConverter = celcius => {
+    const fahrenheit = (celcius * 9/5) + 32;
+    return `${celcius}°C is ${fahrenheit}°F`;
+}
+console.log(tempConverter(40))
+
+// ** The Puppy Age Calculator **
+    // You know how old your dog is in human years, but what about dog years? Calculate it!
+
+const calculatePuppyAge = age => {
+    const dogAge = age * 7;
+    console.log(`Your dog is ${dogAge} years in dog years!`);
+}
+
+calculatePuppyAge(6)
